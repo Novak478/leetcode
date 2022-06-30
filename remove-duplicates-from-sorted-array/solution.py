@@ -1,4 +1,4 @@
-def removeDuplicates(self, nums: List[int]) -> int:
+def removeDuplicates(self, nums) -> int:
     n = len(nums)
     i = 0
     # while guessed length is less than actual
