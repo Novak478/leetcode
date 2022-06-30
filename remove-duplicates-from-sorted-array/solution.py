@@ -1,4 +1,3 @@
-
 def removeDuplicates(self, nums: List[int]) -> int:
     n = len(nums)
     i = 0
@@ -6,7 +5,7 @@ def removeDuplicates(self, nums: List[int]) -> int:
     for j in range(n):
 
         if nums[j] != nums[i]:
-            i+=1
+            i += 1
             nums[i] = nums[j]
     # Add 1 for length
     return i + 1
